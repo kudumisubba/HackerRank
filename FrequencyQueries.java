@@ -11,7 +11,7 @@ import static java.util.stream.Collectors.joining;
  * - Kudumi
  */
 
-public class FrequencyQueries2 {
+public class FrequencyQueries {
 
 	static List<Integer> freqQuery(List<int[]> queries) {
 		 List<Integer> arr = new ArrayList<>(); 
