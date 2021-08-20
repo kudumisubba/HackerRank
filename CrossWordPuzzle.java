@@ -444,11 +444,3 @@ public class CrossWordPuzzle {
 		bufferedWriter.close();
 	}
 }
-
-/*
- * String news = ""; int m = 0; for(int j = 0; j < c.length; j++) { if(c[j] ==
- * '+') news += c[j]; if(c[j] == '-') { if(j < 9 && c[j + 1] == '+') continue;
- * int k = j; while(c[k] == '-' || Character.isLetter(c[k])) { char [] w =
- * word.toCharArray(); news += w[m]; k++; m++; } j += k; }
- * if(Character.isLetter(c[j])) { news += c[j]; if(c[j + 1] == '-') m++; } }
- */
